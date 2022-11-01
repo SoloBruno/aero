@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    border: 2px solid black;
+}
+
+.centrado{
+    width: 80%;
+    margin: 0 auto;
+}
+.flexbox{
+    display: flex;
+}
+
+#inicio .flexbox{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img{
+    width: 4rem;
+}
